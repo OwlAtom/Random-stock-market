@@ -1,6 +1,5 @@
-
-function getYear() {
-    let currentYear = new Date().getFullYear();
-    let title = document.getElementById("copyright");
-    title.innerHTML = `© ${currentYear} OwlAtom.dev`;
-}
+window.addEventListener('load', () => {
+  const currentYear = new Date().getFullYear();
+  const title = document.getElementById('copyright');
+  title.innerHTML = `© ${currentYear} OwlAtom.dev`;
+});
